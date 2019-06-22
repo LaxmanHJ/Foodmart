@@ -133,7 +133,7 @@
                     
                     </ul>
                   </li>
-                  <li class="active"><a href="abouts.html">About Us</a></li>
+                  <li class="active"><a href="#">About Us</a></li>
               </ul>
               <form class="navbar-form navbar-right" role="search" method="post" action="search.php"><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart"></span></button>
                  <div class="form-group">
