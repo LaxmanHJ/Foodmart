@@ -146,7 +146,7 @@ color: #999;
                     
                     </ul>
                   </li>
-                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="#">About Us</a></li>
               </ul>
               <form class="navbar-form navbar-right" role="search" method="post" action="search.php"><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart"></span></button>
                   <button type="button" class="btn btn-danger"><a href="registration.php" style="color:white;">Login</a></button>
@@ -253,7 +253,7 @@ color: #999;
 
 
 
-
+<!-- cart -->
   <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
