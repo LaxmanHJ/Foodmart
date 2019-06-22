@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Payment Page</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <style>
+    body { margin-top:40px; }
+    form{
+        margin: 5px;
+       
+    }
+    input{
+        margin:3px;
+    }
+    
+    
+    </style>
+    <script>
+    function fun(){
+        alert("Payment successfully.....");
+    }
+    </script>
+</head>
+<body>
+        <div class="container" style=" width:50%">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-lg-12 ">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Payment Details
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form">
+                            <div class="row">
+                                    <h5>
+                                            <b>  CARD NUMBER</h5></b></h5>
+                                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number"
+                                        required autofocus />
+                                        </div>
+                                    
+                            </div>
+                            <div class="row">
+                                    <h5>
+                                      <b>  EXPIRY DATE</h5></b></h5>
+                                    <div class="col-sm-6 col-md-4 col-lg-6">
+                                        <input type="text" class="form-control" id="mm" placeholder="MM"
+                                            required autofocus />
+                                                        </div>
+                                                        
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control" id="yy" placeholder="YY"
+                                                                    required autofocus />
+                                 </div>
+                                </div>
+                                <div class="row">
+                                        <h5>
+                                                <b>  CVV</h5></b></h5>
+                                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <input type="text" pattern="[0-9]{3}" class="form-control" id="cvv" placeholder="cvv"
+                                            required autofocus />
+                                            </div>
+                                        
+                                </div>
+                                <div class="row">
+                                        <h5>
+                                                <b>NAME</h5></b></h5>
+                                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <input  class="form-control" id="cardNumber"  title="enter valid type" placeholder="Account Holder"
+                                            required autofocus />
+                                            </div>
+                                        
+                                </div>
+                                <button type="submit" class="btn btn-success btn-lg btn-block" onclick="fun()">Pay</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+     
+</body>
+</html>
